@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--Icones Box Icons-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--BIBLIOTECA SCROLL REVEAL-->
+    <link rel="icon" type="imagens.png" href="/imagens/img-home.png">
+    <!--Inserir Icone ao lado do Título do Navegador -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
+    <title>Rentools</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="myNav" class="overlay">
+                <!--MENU HAMBURGUER - CONTEÚDO -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class='bx bx-x'></i></a>
+
+                <div class="overlay-content">
+                    <a href="#inicio"> <i class='bx bxs-home'></i>Início</a>
+                    <a href="#sobre"><i class='bx bxs-info-circle'></i>Sobre nós</a>
+                    <a href="#alugar"><i class='bx bxs-store-alt'></i>Como Alugar</a>
+                    <a href="#contato"><i class='bx bxs-phone-call'></i>Contato</a>
+                </div>
+            </div>
+
+
+            <a class="logo">Ren<span>tools</span>
+                <h6>Aluguel de ferramentas</h6>
+            </a> <!-- LOGO RENTOOLS -->
+            <ul class="menu">
+                <li class="nav-item"> <i class='bx bxs-home'></i> <a href="#inicio"> Início</a></li>
+                <li class="nav-item"> <i class='bx bxs-info-circle'> </i> <a href="#sobre"> Sobre Nós</a></li>
+                <li class="nav-item"> <i class='bx bxs-store-alt'></i><a href="#alugar"> Como Alugar</a></li>
+                <li class="nav-item"> <i class='bx bxs-phone-call'></i><a href="#contato"> Contato</a></li>
+            </ul>
+
+            <button class="nav-button" onclick="openNav()">
+                <!-- BOTÃO ABRIR MENU -->
+                <i class='bx bx-menu'></i>
+            </button>
+            <!--FINAL MENU HAMBURGUER -->
+
+    </header> <!-- FINAL CABEÇALHO -->
+
+    <main>        
+        <section class="home" id="inicio"> <!--PÁGINA 1 HOME PAGE BEM VINDO-->
+                <div class="home-text">
+                <h4 class="text-h4">Bem vindo à Rentools</h4>
+                <h1 class="text-h1">Aluguel de Ferramentas</h1>
+                <p>Nós temos a solução para seu reparo !</p>
+                <img class="seta" src="imagens/arrow.png" width="30px">
+            </div>
+            <div class="home-img">
+                <img src="imagens/img-home.png" alt="hamburguer">
+            </div>
+        </section>
+    </main>
+
+    <section class="about" id="sobre"><!--PÁGINA 2 SOBRE NÓS-->        
+        <div class="main">
+            <!--<img src="imagens/about2.png">-->
+            <div class="about-text">
+                <h2>Sobre nós</h2>
+                <p>Desde nossa fundação em 2000, nos tornamos mestres em nosso ofício.<br>
+                    Com um atendimento incomparável, temos o comprimisso de fornecer produtos de qualidade
+                    e serviços excepcionais para que nosso clientes sempre voltem a nos procurar.<br>
+                    Nosso principal objetivo são pessoas que necessitam de uma ferramenta e/ou equipamento e não querem
+                    pagar o valor completo do produto para utilizar 1 ou 2 vezes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="alugar"><!--PÁGINA 3 COMO ALUGAR -->        
+        <div class="text-2">
+            <h2>Como funciona</h2>
+            <img class="pensando" src="imagens/pensando.png" width="150px">
+        </div>
+
+        <div class="container">
+
+            <div class="box">
+                <div class="conteudo">
+                    <img class="app" src="imagens/drive-thru.png" width="100px">
+                    <p>Alugue, e retire em nossa loja, via drive-thru.</drive->
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="conteudo">
+                    <img class="app" src="imagens/smartphone.png" width="100px">
+                    <p>Baixe nosso aplicativo e alugue !
+                    <h6>Disponível apenas para android <i class='bx bxl-play-store'></i></h6>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="conteudo">
+                    <img class="app" src="imagens/2022.png" width="100px">
+                    <p>Escolha a melhor data para retirar seus produtos !</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contato" id="contato"> <!--PÁGINA 4 / RODAPÉ-->
+            <div class="hour">
+            <h1> Horário de funcionamento:<br></h1>
+            <br>
+            <h3><i class='bx bxs-calendar'></i> Seg: - Sex: 8hrs - 18hrs<br>
+                <i class='bx bxs-calendar'></i>Sab: 8hrs - 14hrs<br>
+                <i class='bx bxs-calendar'></i>Dom: Fechado.<br>
+            </h3>
+        </div>
+        <div class="tele">
+            <h1>Informações de contato:<h1>
+                    <br>
+                    <h3><i class='bx bxs-phone'></i> Telefone: (19) 1234-5678</h3>
+                    <h3><i class='bx bxl-whatsapp'></i> Whatsapp: (19) 9 4321-8765</h3>
+                    <h3><i class='bx bx-envelope'></i> Email: rentools@aluguel.com.br</h3>
+                    <br>
+                    <p><i class='bx bxs-map'></i> Estamos localizados na Av. da Saudade,<br> 125 - Pte. Preta, Campinas
+                        - SP, 13041-670.</p>
+        </div>
+        <div class="map">
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9546078922517!2d-47.05812504870988!3d-22.915045043854914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf3303ceff43%3A0xea485c60a4b21ef5!2sEscola%20SENAI%20Prof.%20Dr.%20Euryclides%20de%20Jesus%20Zerbini!5e0!3m2!1spt-BR!2sbr!4v1659981375551!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <i class='bx bxs-copyright'></i>
+        <h6>Rentools | 2022 | SENAI ZERBINI</h6>
+    </footer>
+
+</body>
+<script src="/js/script.js"></script>
+
+</html>
